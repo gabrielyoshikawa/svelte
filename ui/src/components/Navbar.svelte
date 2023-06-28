@@ -3,8 +3,11 @@
 </script>
 
 <nav>
-    <a href="/">Bindings</a>
+    <a href="/">Home Page</a>
+    <a href="/#/bindings">Bindings</a>
     <a href="/#/reactive-values">Reactive Values</a>
+    <a href="/#/loops">Loops</a>
+    <a href="/#/inline-function">Inline Function</a>
 </nav>
 
 <style>

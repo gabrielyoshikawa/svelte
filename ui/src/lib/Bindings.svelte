@@ -1,5 +1,5 @@
 <script>
-    let name = "Yoshi";
+    let name = "Name";
     let beltColor = "Black";
 
     const updateBeltColorButton = () => {
@@ -23,9 +23,9 @@
         <p style="color: {beltColor};">Your belt color is: {beltColor}</p>
         <button on:click={updateBeltColorButton}>Click for update your belt color to Orange</button>
         <!-- One way binding -->
-        <input type="text" placeholder="Type for update your belt color" on:input={updateBeltColorInput} value={beltColor} />
+        <!-- <input type="text" placeholder="Type for update your belt color" on:input={updateBeltColorInput} value={beltColor} /> -->
         <!-- Two way binding -->
-        <!-- <input type="text" bind:value={beltColor} /> -->
+        <input type="text" bind:value={beltColor} />
     </div>
 </div>
 
@@ -60,6 +60,7 @@
         background-color: orange;
         border: none;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        border-radius: 3%;
     }
 
     button:hover {
@@ -72,5 +73,7 @@
         height: 5%;
         width: 40%;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        border: none;
+        background-color: lightgreen;
     }
 </style>
