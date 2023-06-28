@@ -1,0 +1,34 @@
+<script>
+
+</script>
+
+<nav>
+    <a href="/">Bindings</a>
+    <a href="/#/reactive-values">Reactive Values</a>
+</nav>
+
+<style>
+    nav {
+        width: 100%;
+        height: 10%;
+        background-color: rgb(80, 79, 79);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    a {
+        font-size: 2em;
+        text-decoration: none;
+        color: white;
+        transition: linear 0.5s;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    a:hover {
+        cursor: pointer;
+        color: rgb(179, 177, 177);
+        transition: linear 0.5s;
+    }
+
+</style>
