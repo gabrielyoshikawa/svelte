@@ -8,6 +8,7 @@
     <a href="/#/reactive-values">Reactive Values</a>
     <a href="/#/loops">Loops</a>
     <a href="/#/inline-function">Inline Function</a>
+    <a href="/#/conditionals">Conditionals</a>
 </nav>
 
 <style>
