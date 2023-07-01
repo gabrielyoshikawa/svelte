@@ -51,7 +51,6 @@
 
     p {
         font-size: 2em;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     }
 
     button {
@@ -59,7 +58,6 @@
         height: 7%;
         background-color: orange;
         border: none;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
         border-radius: 3%;
     }
 
@@ -72,7 +70,6 @@
         margin-top: 1rem;
         height: 5%;
         width: 40%;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
         border: none;
         background-color: lightgreen;
     }
